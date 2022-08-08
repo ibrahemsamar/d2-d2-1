@@ -6,7 +6,7 @@ pipeline {
         ARTIFACT_NAME = 'Samar-Belt2D2-artifacts-123456.war'
         AWS_S3_BUCKET = 'samar-b2d2'
         AWS_EB_APP_NAME = 'Samarapp'
-        AWS_EB_ENVIRONMENT = 'Samarapp-env'
+        AWS_EB_ENVIRONMENT = 'SamarenV'
         AWS_EB_APP_VERSION = "${BUILD_ID}"
     } 
     stages {
