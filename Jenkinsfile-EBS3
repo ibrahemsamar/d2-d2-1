@@ -5,8 +5,8 @@ pipeline {
         AWS_SECRET_ACCESS_KEY = credentials('adwaa-aws-secret-access-key')
         ARTIFACT_NAME = 'adwaa-Belt2D2-artifacts-123456.war'
         AWS_S3_BUCKET = 'adwaa-b2-d2-s3'
-        AWS_EB_APP_NAME = 'eb-b2-d2'
-        AWS_EB_ENVIRONMENT = 'Ebb2d2-env'
+        AWS_EB_APP_NAME = 'adwaa-b2-d2'
+        AWS_EB_ENVIRONMENT = 'Adwaab2d2-env'
         AWS_EB_APP_VERSION = "${BUILD_ID}"
     } 
     stages {
